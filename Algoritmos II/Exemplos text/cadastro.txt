@@ -1,0 +1,7 @@
+11;Fulano de Tal;5;5;5;
+12;Marta Almeida;8;5.6;7.9;
+13;Ana Paula;8;8;8;
+14;Fernando Pessoa;7;8;10;
+15;Fabr¡cio Moraes;6.8;9.4;5.8;
+1;Adilso Souza;5;6;7;
+15;Gabriel Moura;6;6;6
