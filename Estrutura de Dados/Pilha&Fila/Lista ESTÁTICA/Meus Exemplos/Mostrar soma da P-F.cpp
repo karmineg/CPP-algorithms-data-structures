@@ -1,0 +1,50 @@
+#include<iostream>
+using namespace std;
+#include"pilha-estatica.hpp"
+#include"fila-circular.hpp"
+
+main() {
+    system ("color 02");
+    setlocale(LC_ALL, "Portuguese");
+    Pilha<int>* P = new Pilha<int>();
+    inicializaP(P, 10);
+    Fila<int>* F = new Fila<int>();
+    inicializaF(F, 10);
+
+    enfileiraF(F, 0);
+    enfileiraF(F, 2);
+    enfileiraF(F, 9);
+    enfileiraF(F, 3);
+    enfileiraF(F, 8);
+    enfileiraF(F, 5);
+
+    empilhaP(P, 1);
+    empilhaP(P, 2);
+    empilhaP(P, 2);
+    empilhaP(P, 3);
+    empilhaP(P, 4);
+    empilhaP(P, 5);
+
+    mostrarSimplesP(P, "");
+    cout << endl;
+    mostrarSimplesF(F, "");
+    cout << endl;
+
+    float numP = 0;
+    float numF = 0;
+
+    while(!vaziaP(P)){
+        int x = desempilhaP(P);
+        numP += x;
+    }
+
+    while(!vaziaF(F)){
+        int x = desenfileiraF(F);
+        numF += x;
+    }
+
+    cout << "\n> Soma dos elementos da pilha: " << numP << endl;
+    cout << "\n> Soma dos elementos da fila: " << numF;
+
+}
+
