@@ -1,0 +1,15 @@
+cadastrarFunc 10 Ricardo M
+cadastrarFunc -6 Karmine F
+cadastrarFunc 0 Geremia N
+mostraFunc
+cadastrarFunc 12 Augusto F
+cadastrarFunc 2 Muller F
+cadastrarFunc -3 Germani M
+cadastrarFunc 14 Carlos N
+addFuncDep 10 2
+mostraFunc
+removeFunc 40
+removeFunc 50
+removeFunc 10
+removeFunc -6
+mostrarFunc
