@@ -1,0 +1,11 @@
+Inserir 1 karmine 6 60.0
+Inserir 2 alucard 6 75
+Inserir 3 pedro 8 90
+Inserir 4 ppp 5 75
+Inserir 5 ele 9 100
+Inserir 1 amor 1 1
+Mostrar
+Aprovados
+Remover 10
+Remover 4
+Mostrar

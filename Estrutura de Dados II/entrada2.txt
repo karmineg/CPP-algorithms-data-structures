@@ -1,0 +1,5 @@
+inserir 12
+inserir 13
+inserir 4
+inserir 14
+remover 4

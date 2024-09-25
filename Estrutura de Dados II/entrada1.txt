@@ -1,0 +1,6 @@
+inserir 16
+inserir 13
+inserir 17
+inserir 9
+remover 16
+remover 100
